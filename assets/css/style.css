@@ -12,7 +12,7 @@ body {
 }
 
 .contact {
-  flex: 0 0 15rem;
+  flex: 0 0 11rem;
   align-items: center;
   flex-direction: column;
 }
@@ -21,7 +21,7 @@ body {
   flex-direction: column;
   flex-basis: 100%;
   background-image: url("/assets/img/hand.png");
-  background-size: 25%;
+  background-size: 15rem;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #e8ebe4;
@@ -32,14 +32,13 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 45px;
   justify-content: center;
-  margin-top: 29rem;
+  margin-top: 27rem;
   margin-bottom: 0px;
 }
 
 .sub-titulo-principal {
   display: flex;
   justify-content: center;
-  margin-bottom: 9rem;
   font-size: small;
   font-family: "Open Sans", sans-serif;
 }
@@ -48,8 +47,33 @@ body {
   display: flex;
   align-items: center;
 }
+
+.user{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .data-user img {
   display: flex;
   border-radius: 50%;
-  width: 2.5rem;
+  width: 2rem;
+  
+}
+.p-user{
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.status-user{
+  font-family: "Roboto", sans-serif;
+  font-size: x-small;
+  margin-top: 0;
+  color: #BEC1BB;
+  margin-left: 10px;
+}
+.fa-regular,.fa-solid{
+  color: #BEC1BB;
+  margin-left: -15px;
 }
