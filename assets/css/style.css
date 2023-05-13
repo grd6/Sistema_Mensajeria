@@ -7,7 +7,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .main-container {
-display: flex;
+  display: flex;
 }
 
 .contact {
@@ -15,18 +15,18 @@ display: flex;
   align-items: center;
   flex-direction: column;
 }
- .principal {
+.principal {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-  background-image: url("../assets/img/hand.png");
+  background-image: url("https://github.com/grd6/Sistema_Mensajeria/blob/main/assets/img/hand.png");
   background-size: 15rem;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #e8ebe4;
   border-color: #bec1bb;
   border-width: 1px;
-  border-style: solid; 
+  border-style: solid;
 }
 
 .titulo-principal {
@@ -54,7 +54,6 @@ display: flex;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
 }
 .data-user img {
   display: flex;
@@ -68,28 +67,24 @@ display: flex;
   margin-bottom: 0;
   margin-left: 10px;
 }
-.user-chat{
+.user-chat {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding-left: 10px;
-  
-  
 }
-.status-user{
+.status-user {
   font-family: "Roboto", sans-serif;
   font-size: x-small;
   margin-top: 0;
-  color: #BEC1BB;
+  color: #bec1bb;
   margin-left: 10px;
 }
-.status-user-chat{
+.status-user-chat {
   font-family: "Roboto", sans-serif;
   font-size: x-small;
   margin-top: -10px;
-  color: #1B1F21;
-  
-  
+  color: #1b1f21;
 }
 .fa-regular,
 .fa-solid {
@@ -106,7 +101,7 @@ display: flex;
   height: 5rem;
 }
 
-hr{
+hr {
   margin: 0px;
 }
 
@@ -117,23 +112,21 @@ div button {
   height: 2rem;
 }
 
-div button:hover{
-  background-color:#CDC3E6;
+div button:hover {
+  background-color: #cdc3e6;
   cursor: grab;
 }
-div button:focus{
-  background-color:#e8ebe4;
+div button:focus {
+  background-color: #e8ebe4;
 }
 
 div button a {
   text-decoration: none;
   color: white;
 }
-section{
-   cursor: grab;
-
-  
+section {
+  cursor: grab;
 }
-section:hover{
-  background-color: #E8EBE4;
+section:hover {
+  background-color: #e8ebe4;
 }
