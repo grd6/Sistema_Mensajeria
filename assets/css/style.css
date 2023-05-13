@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-  background-image: url("https://github.com/grd6/Sistema_Mensajeria/blob/main/assets/img/hand.png");
+  background-image: url("../img/hand.png");
   background-size: 15rem;
   background-repeat: no-repeat;
   background-position: center;
