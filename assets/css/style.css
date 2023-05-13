@@ -4,11 +4,10 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: "Roboto", sans-serif;
 }
 .main-container {
-  display: flex;
-  flex-basis: 100%;
-  height: 100vh;
+display: flex;
 }
 
 .contact {
@@ -16,7 +15,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.principal {
+ .principal {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
@@ -25,6 +24,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #e8ebe4;
+  border-color: #bec1bb;
+  border-width: 1px;
+  border-style: solid; 
 }
 
 .titulo-principal {
@@ -48,24 +50,32 @@ body {
   align-items: center;
 }
 
-.user{
+.user {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
 }
 .data-user img {
   display: flex;
   border-radius: 50%;
   width: 2rem;
-  
 }
-.p-user{
+
+.p-user {
   font-family: "Roboto", sans-serif;
   font-size: small;
   margin-bottom: 0;
   margin-left: 10px;
 }
-
+.user-chat{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  
+  
+}
 .status-user{
   font-family: "Roboto", sans-serif;
   font-size: x-small;
@@ -73,7 +83,57 @@ body {
   color: #BEC1BB;
   margin-left: 10px;
 }
-.fa-regular,.fa-solid{
-  color: #BEC1BB;
+.status-user-chat{
+  font-family: "Roboto", sans-serif;
+  font-size: x-small;
+  margin-top: -10px;
+  color: #1B1F21;
+  
+  
+}
+.fa-regular,
+.fa-solid {
+  color: #bec1bb;
   margin-left: -15px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  height: 5rem;
+}
+
+hr{
+  margin: 0px;
+}
+
+div button {
+  background-color: #a491d2;
+  border: 0;
+  width: 8rem;
+  height: 2rem;
+}
+
+div button:hover{
+  background-color:#CDC3E6;
+  cursor: grab;
+}
+div button:focus{
+  background-color:#e8ebe4;
+}
+
+div button a {
+  text-decoration: none;
+  color: white;
+}
+section{
+   cursor: grab;
+
+  
+}
+section:hover{
+  background-color: #E8EBE4;
 }
